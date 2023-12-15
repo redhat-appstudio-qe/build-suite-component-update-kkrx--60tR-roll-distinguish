@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: multi-component-parent-oulr
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/build-e2e-imqv-tenant/build-suite-component-update-kkrx/multi-component-parent-oulr@sha256:54ce78f8d3abfa387210918aa86c7961f0d61583451e87396e6905055e636976
+        name: container-image
+        resources: {}
+status: {}
