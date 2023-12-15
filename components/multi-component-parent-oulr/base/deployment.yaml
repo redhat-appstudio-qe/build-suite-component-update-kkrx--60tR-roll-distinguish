@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: multi-component-parent-oulr
     spec:
       containers:
-      - image: quay.io/redhat-appstudio-qe/build-e2e-imqv-tenant/build-suite-component-update-kkrx/multi-component-parent-oulr@sha256:54ce78f8d3abfa387210918aa86c7961f0d61583451e87396e6905055e636976
+      - image: quay.io/redhat-appstudio-qe/build-e2e-imqv-tenant/build-suite-component-update-kkrx/multi-component-parent-oulr@sha256:74297242a34c0a5c6cfd600f593b0693bb58588f6cfbf32bad60af65602eb5a7
         imagePullPolicy: Always
         name: container-image
         ports:
